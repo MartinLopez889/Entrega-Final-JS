@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Final</title>
+    <!-- CDN a mi bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- link a la libreria Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- link a mi CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+
+    
+    <div class="input-group">
+      <span class="input-group-text fw-bold">Rellene los campos</span>
+      <input type="text" aria-label="Nombre" placeholder="Nombre" class="form-control fst-italic" id="ingNombre">
+      <input type="text" aria-label="Apellido" placeholder="Apellido" class="form-control fst-italic" id="ingApellido">
+      <input type="text" aria-label="Estado" placeholder="Estado" class="form-control fst-italic" id="ingEstado">
+      <button id="submitButton" class="btn btn-primary">Enviar</button>
+    </div>
+
+    <br><br>
+    
+    <div id="cajaListado"> </div>
+
+    
+    
+    
+    <!-- scripts de javascript y toastify -->
+    <script src="main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

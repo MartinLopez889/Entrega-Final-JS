@@ -1,0 +1,34 @@
+{
+    "alumnos":[
+        {
+            "nombre": "Romina",
+            "apellido": "Alberti",
+            "estado": "Aprobado"
+        },
+        {
+            "nombre": "Matias",
+            "apellido": "Del Valle",
+            "estado": "Desaprobado"
+        },
+        {
+            "nombre": "Emiliano",
+            "apellido": "Tronci",
+            "estado": "Desaprobado"
+        },
+        {
+            "nombre": "Melisa",
+            "apellido": "Cabrera",
+            "estado": "Aprobado"
+        },
+        {
+            "nombre": "Ignacio",
+            "apellido": "Rasente",
+            "estado": "Aprobado"
+        },
+        {
+            "nombre": "Aurora",
+            "apellido": "Acosta",
+             "estado": "Aprobado"
+        }
+    ]
+}

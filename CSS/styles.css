@@ -1,0 +1,26 @@
+/* Ubicación del formulario */
+.input-group{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 1000px;
+}
+
+/* ubicación listado */
+#cajaListado{
+    margin-left: 150px;
+}
+
+/* paleta colores */
+body{
+    background-color: rgb(14, 210, 203);
+}
+
+#cajaListado{
+    color: rgb(57, 56, 56);
+    font-weight: bold;
+}
+
+/* fuente */
+body{
+    font-family: 'Roboto', sans-serif;
+}
